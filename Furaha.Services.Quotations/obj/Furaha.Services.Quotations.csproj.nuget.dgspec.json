@@ -1,0 +1,117 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/wekesa/Desktop/Furaha.Services.Quotations/Furaha.Services.Quotations/Furaha.Services.Quotations.csproj": {}
+  },
+  "projects": {
+    "/home/wekesa/Desktop/Furaha.Services.Quotations/Furaha.Services.Quotations/Furaha.Services.Quotations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/wekesa/Desktop/Furaha.Services.Quotations/Furaha.Services.Quotations/Furaha.Services.Quotations.csproj",
+        "projectName": "Furaha.Services.Quotations",
+        "projectPath": "/home/wekesa/Desktop/Furaha.Services.Quotations/Furaha.Services.Quotations/Furaha.Services.Quotations.csproj",
+        "packagesPath": "/home/wekesa/.nuget/packages/",
+        "outputPath": "/home/wekesa/Desktop/Furaha.Services.Quotations/Furaha.Services.Quotations/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/wekesa/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "Rocket.Libraries.AssemblyInformation": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Rocket.Libraries.CallProxy": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Rocket.Libraries.ConfigurationReader": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Rocket.Libraries.ConsulHelper": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Rocket.Libraries.Emailing": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Rocket.Libraries.MicroServiceChannels": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Rocket.Libraries.QBuilder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Rocket.Libraries.Sessions": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.164, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
